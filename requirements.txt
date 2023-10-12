@@ -1,0 +1,9 @@
+atlassian-python-api
+python-dotenv
+beautifulsoup4
+chromadb
+openai
+langchain
+tiktoken # Required for openai auth
+sentence-transformers
+fastapi[all]

@@ -1,0 +1,20 @@
+{
+  "name": "confluence-chat",
+  "namespace": "@confluence-chat",
+  "version": "0.1.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "tsup": "^6.5.0",
+    "turbo": "^1.6.3",
+    "typescript": "^5.0.0"
+  }
+}
